@@ -10,7 +10,15 @@ let auth = require('./controllers/auth');
 
 
 app.set('view engine', 'ejs');
-mongoose.connect('mongodb://localhost/strudents', {useNewUrlParser: true});
+mongoose.connect(
+    "mongodb+srv://raj:bookphone@mycluster-7fhkf.mongodb.net/travels",
+     {useNewUrlParser: true}
+);
+
+//mongoose.connect('mongodb://localhost/strudents', {useNewUrlParser: true});
+
+//mongoose.connect('mongodb+srv://ashwin:phonebook1@mycluster-zm8ip.mongodb.net/travels', {useNewUrlParser: true});
+
 app.use(express.json());
  
 
