@@ -1,0 +1,33 @@
+{
+  "name": "student-portal_v4",
+  "version": "1.0.0",
+  "main": "app.js",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "cookie-parser": "^1.4.4",
+    "ejs": "^3.0.1",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.8.11",
+    "multer": "^1.4.2",
+    "uniqid": "^5.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ashwin",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/azz-design/lets-travel.git"
+  },
+  "keywords": [
+    "lets-travel"
+  ],
+  "bugs": {
+    "url": "https://github.com/azz-design/lets-travel/issues"
+  },
+  "homepage": "https://github.com/azz-design/lets-travel#readme",
+  "description": ""
+}
