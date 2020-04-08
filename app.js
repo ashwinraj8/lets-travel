@@ -53,7 +53,8 @@ app.get('/admin', (req,resp)=>{
 app.get('/login',(req,resp)=>{
     resp.render('login');
 })
-app.listen(3000, ()=> console.log('Listening to 3000....'));
+let port  = process.env.PORT || 3000;
+app.listen(port, ()=> console.log(`Listening ${port}....`));
 
 
 
