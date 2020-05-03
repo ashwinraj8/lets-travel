@@ -11,7 +11,7 @@ let auth = require('./controllers/auth');
 
 app.set('view engine', 'ejs');
 mongoose.connect(
-    "mongodb+srv://raj:bookphone@mycluster-7fhkf.mongodb.net/travels",
+    
      {useNewUrlParser: true}
 );
 
