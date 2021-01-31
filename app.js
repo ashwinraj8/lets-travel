@@ -17,7 +17,7 @@ mongoose.connect(
 
 //mongoose.connect('mongodb://localhost/strudents', {useNewUrlParser: true});
 
-//mongoose.connect('mongodb+srv://ashwin:phonebook1@mycluster-zm8ip.mongodb.net/travels', {useNewUrlParser: true});
+//mongoose.connect('mongodb+srv://-zm8ip.mongodb.net/travels', {useNewUrlParser: true});
 
 app.use(express.json());
  
